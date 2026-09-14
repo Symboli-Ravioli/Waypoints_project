@@ -14,3 +14,7 @@ Version 0.2.0
 Version 0.2.1
 - fixed issue with dashboard not showing
 - still no actual service
+
+Version 0.2.2
+- Fixed some security issues
+- made the minimum password length longer
