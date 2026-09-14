@@ -10,3 +10,7 @@ Version 0.2.0
 - added types of user plans (free,pro)
 - added admin user and admin dashboard
 - stores user account info (passwords,emails,user id)
+
+Version 0.2.1
+- fixed issue with dashboard not showing
+- still no actual service
