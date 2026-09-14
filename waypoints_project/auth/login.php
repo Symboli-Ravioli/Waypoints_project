@@ -36,7 +36,7 @@ $_SESSION['user_email'] = $user['email'];
 $_SESSION['user_role'] = $user['role'];
 $_SESSION['user_plan'] = $user['plan'];
 
-$redirect = ($_SESSION['user_role'] === 'admin') ? 'admin.php' : 'dashboard.php';
+$redirect = ($_SESSION['user_role'] === 'admin') ? '/waypoints_project/admin.php' : '/waypoints_project/dashboard.php';
 
 echo json_encode([
     'success' => true,

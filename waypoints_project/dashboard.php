@@ -2,7 +2,7 @@
 require __DIR__ . '/db.php';
 
 if (!isset($_SESSION['user_id'])) {
-    header('Location: homepage.html');
+    header('Location: /waypoints_project/homepage.html');
     exit;
 }
 
@@ -35,10 +35,10 @@ $userRole = htmlspecialchars($_SESSION['user_role'] ?? 'user');
         </div>
 
         <?php if ($userRole === 'admin'): ?>
-            <p><a href="admin.php">Open admin panel</a></p>
+            <p><a href="/waypoints_project/admin.php">Open admin panel</a></p>
         <?php endif; ?>
 
-        <p><a href="auth/logout.php">Logout</a></p>
+        <p><a href="/waypoints_project/auth/logout.php">Logout</a></p>
     </div>
 </body>
 </html>

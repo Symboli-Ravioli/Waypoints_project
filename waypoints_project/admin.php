@@ -2,7 +2,7 @@
 require __DIR__ . '/db.php';
 
 if (!isset($_SESSION['user_id']) || ($_SESSION['user_role'] ?? '') !== 'admin') {
-    header('Location: homepage.html');
+    header('Location: /waypoints_project/homepage.html');
     exit;
 }
 
@@ -30,7 +30,7 @@ $users = $pdo->query(
     <div class="wrap">
         <h1>Admin Panel</h1>
         <p>Welcome, <?php echo htmlspecialchars($_SESSION['user_name']); ?>.</p>
-        <p><a href="dashboard.php">Back to dashboard</a> | <a href="auth/logout.php">Logout</a></p>
+        <p><a href="/waypoints_project/dashboard.php">Back to dashboard</a> | <a href="/waypoints_project/auth/logout.php">Logout</a></p>
 
         <table>
             <thead>

@@ -16,6 +16,6 @@
  */
 
 // Redirect to the landing page
-header('Location: homepage.html');
+header('Location: /waypoints_project/homepage.html');
 exit;
 ?>
