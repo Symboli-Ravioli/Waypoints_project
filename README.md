@@ -22,3 +22,8 @@ Version 0.2.2
 Version 0.2.2.1
 - Added website versioning at the bottom of the footer
 - somehow does not show up in the localhost view of the website but does in the live server view in vs code
+
+Version 0.2.4
+- Versioning in footer properly works
+- moved the Plan choice from sign up to user dashboard
+- custom successful sign in and error pop up
