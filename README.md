@@ -32,3 +32,6 @@ Version 0.2.5.1
 - working calendar
 - user metrics for admin
 - payment options section (WiP)
+
+Version 0.2.6
+- Converted the homepage from html to php
