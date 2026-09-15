@@ -26,3 +26,9 @@ Version 0.2.4
 - Versioning in footer properly works
 - moved the Plan choice from sign up to user dashboard
 - custom successful sign in and error pop up
+
+Version 0.2.5.1
+- Added more dashboard features
+- working calendar
+- user metrics for admin
+- payment options section (WiP)
