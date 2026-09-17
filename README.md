@@ -35,3 +35,9 @@ Version 0.2.5.1
 
 Version 0.2.6
 - Converted the homepage from html to php
+
+Version 0.2.6.1
+- migrated admin app settings to database
+- migrated user waypoints to database
+- migrated user preferences to database (feature coming soon)
+- removed redundant admin logout button in admin dashboard
