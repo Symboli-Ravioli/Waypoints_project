@@ -27,7 +27,6 @@ Version 0.2.4
 - moved the Plan choice from sign up to user dashboard
 - custom successful sign in and error pop up
 
-too lazy to update past this lololol
 Version 0.2.5.1
 - Added more dashboard features
 - working calendar
@@ -36,9 +35,11 @@ Version 0.2.5.1
 
 Version 0.2.6
 - Converted the homepage from html to php
-
+- 
 Version 0.2.6.1
 - migrated admin app settings to database
 - migrated user waypoints to database
 - migrated user preferences to database (feature coming soon)
 - removed redundant admin logout button in admin dashboard
+
+too lazy to update past this lolol
