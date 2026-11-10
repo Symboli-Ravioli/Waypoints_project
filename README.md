@@ -27,6 +27,7 @@ Version 0.2.4
 - moved the Plan choice from sign up to user dashboard
 - custom successful sign in and error pop up
 
+too lazy to update past this lololol
 Version 0.2.5.1
 - Added more dashboard features
 - working calendar
